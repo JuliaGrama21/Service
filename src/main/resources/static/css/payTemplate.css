@@ -1,0 +1,28 @@
+
+.section{
+    background: none;
+    font-size: 35px;
+    top: 90px;
+    left: 120px;
+}
+
+.myPayment{
+    background: none;
+}
+
+.service{
+    font-size: 25px;
+    color: #2b542c;
+    font-style: oblique;
+}
+
+.organization{
+    font-size: 25px;
+    color: #2b542c;
+    font-style: oblique;
+}
+
+.edit{
+    size: 100px;
+}
+

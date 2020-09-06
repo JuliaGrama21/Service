@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Registration</title>
+
+    <link rel="stylesheet" href="/libs/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/form.css">
+
+    <script src="/libs/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <div class="panel-body">
+        <form method="post">
+            <h1 style="font-family:verdana;" align="center">Sign up</h1>
+            <div class="input-group form-group">
+                <label>User Name</label>
+                <input type="text" class="form-control field" name="username">
+            </div>
+            <div class="input-group form-group">
+                <label>Password</label>
+                <input type="password" class="form-control field" name="password">
+            </div>
+            <div class="input-group form-group">
+                <a href="/login" id="link-icon" class="input-group-addon">Log in</a>
+                <button type="submit" class="form-control btn">Sign up</button>
+            </div>
+            <input id="csrf-field" type="hidden"/>
+        </form>
+    </div>
+</div>
+
+<script src="/js/csrf/csrf_form_support.js"></script>
+
+</body>
+</html>

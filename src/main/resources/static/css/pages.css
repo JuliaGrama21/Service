@@ -1,0 +1,154 @@
+body {
+    height: 100%;
+}
+
+.root {
+    height: 100%;
+}
+
+.cabinet {
+    height: 100%;
+}
+
+.logo {
+    width: 56px;
+    height: 56px;
+    margin-left: 10px;
+}
+
+.menu-wrapper {
+    margin-right: 10px;
+}
+
+.flex-container {
+    display: flex;
+    width: 100%;
+
+}
+
+.flex-left {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.flex-center {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.tabs-container {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    background-color: #e1ff7b;
+}
+
+.tab {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.cabinet-content {
+    margin: 0;
+    padding: 0;
+    background-color: #b3ffa0;
+   /* background-image: url("payb/gr.jpg");*/
+    width: 100%;
+    height: 560px;
+    position: initial;
+    background-size: 100%;
+}
+
+ul.menu {
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 5px;
+    display: inline-block;
+    background-color: #3cb371;
+    width: 180px;
+}
+
+ul.menu li {
+    list-style: none;
+    position: relative;
+}
+
+ul.menu li a {
+    padding: 10px 12px 12px;
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: Arial;
+    text-decoration: #adadad;
+    display: block;
+    border-top: 1px solid lightblue;
+}
+
+ul.menu li a:hover {
+    background-color: cadetblue;
+}
+
+ul.menu li:first-child a {
+    border-top: none;
+}
+
+ul.menu li:first-child a:hover {
+    border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+}
+
+ul.menu li:last-child a:hover {
+    border-radius: 0 0 5px 5px;
+    -webkit-border-radius: 0 0 5px 5px;
+    -moz-border-radius: 0 0 5px 5px;
+}
+
+ul.menu li ul {
+    display: none;
+}
+
+ul.menu li:hover ul {
+    padding: 10px 10px 8px;
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 40px;
+    background-color: darkseagreen;
+    width: 180px;
+    z-index: 1000;
+    border-radius: 0 5px 5px 0;
+    -webkit-border-radius: 0 5px 5px 0;
+    -moz-border-radius: 0 5px 5px 0;
+}
+
+ul.menu li:hover ul li:first-child a:hover {
+    border-radius: 0 5px 0 0;
+    -webkit-border-radius: 0 5px 0 0;
+    -moz-border-radius: 0 5px 0 0;
+}
+
+ul.menu li:hover ul li:last-child a:hover {
+    border-radius: 0 0 5px 0;
+    -webkit-border-radius: 0 0 5px 0;
+    -moz-border-radius: 0 0 5px 0;
+}
+
+.table{
+    position: fixed;
+    top: 200px;
+    left: 100px;
+}

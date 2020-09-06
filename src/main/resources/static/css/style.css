@@ -1,0 +1,28 @@
+.link {
+    color: blue;
+    cursor: pointer;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.added-file {
+    color: green;
+}
+
+.delete-icon {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.confirm-default-text {
+    font-weight: bold;
+}
+
+.confirm-filename-text {
+    font-weight: bold;
+    color: #d74500;
+}
